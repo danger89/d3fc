@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <script src="https://unpkg.com/seedrandom/seedrandom.js"></script>
+    <script>Math.seedrandom('a22ebc7c488a3a47');</script>
+    <script src="https://unpkg.com/d3/dist/d3.js"></script>
+    <script src="https://unpkg.com/d3fc/build/d3fc.js"></script>
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+    <style>
+        body {
+            display: flex;
+        }
+
+        body>* {
+            flex: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <d3fc-canvas use-device-pixel-ratio set-webgl-viewport></d3fc-canvas>
+    <script src="index.js"></script>
+</body>
+
+</html>
